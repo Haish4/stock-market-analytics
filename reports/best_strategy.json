@@ -1,0 +1,38 @@
+{
+  "strategy": {
+    "total_return": -0.40917757092385565,
+    "cagr": -0.4503370457423369,
+    "sharpe": -1.232007374118458,
+    "max_drawdown": -0.4733666809464879,
+    "calmar": -0.9513492686935555,
+    "trades": 346,
+    "win_rate": 0.4479768786127168,
+    "avg_trade": -0.004233602950481475
+  },
+  "benchmarks": {
+    "BTC buy&hold": {
+      "total_return": -0.26035845279693604,
+      "cagr": -0.2903429865837097,
+      "sharpe": -0.5939589292590645,
+      "max_drawdown": -0.40310269594192505,
+      "calmar": -0.7202705144882202
+    },
+    "Equal-weight basket": {
+      "total_return": -0.3548622727394104,
+      "cagr": -0.39251846075057983,
+      "sharpe": -0.5356596235551098,
+      "max_drawdown": -0.5144863128662109,
+      "calmar": -0.7629327774047852
+    }
+  },
+  "config": {
+    "model": "pred_dt",
+    "n_slots": 3,
+    "q": 0.95,
+    "long_short": true,
+    "sl": null,
+    "prob_sizing": false
+  },
+  "thr_hi": 0.879,
+  "thr_lo": 0.12857142857142856
+}
