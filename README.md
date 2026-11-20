@@ -37,8 +37,8 @@ which also supports incremental daily updates. Dataset: **1,305,006 rows**, 50 s
 2023-11 to 2026-11 (EOS and MKR stop in 2025 when Binance delisted them; they are kept in the
 history so results are not survivor-biased).
 
-Dataset copy (processed parquet + trained models) on Hugging Face: `https://huggingface.co/datasets/<your-hf-username>/crypto-hourly-top50`.
-Restore it with `python -m src.hf_sync pull <your-hf-username>/crypto-hourly-top50`, or rebuild from scratch with the download step.
+Dataset copy (processed parquet + trained models) on Hugging Face: `https://huggingface.co/datasets/Haish4/crypto-hourly-top50`.
+Restore it with `python -m src.hf_sync pull Haish4/crypto-hourly-top50`, or rebuild from scratch with the download step.
 
 ### Features (32 numeric + 21 dummy columns)
 | Group | Features |
