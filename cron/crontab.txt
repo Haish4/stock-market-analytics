@@ -1,0 +1,6 @@
+# Daily update at 02:30 UTC (data.binance.vision publishes yesterday's files shortly after midnight UTC).
+# Edit /path/to/project and the python path, then install with:  crontab cron/crontab.txt
+30 2 * * * cd /path/to/project && /path/to/.venv/bin/python run_pipeline.py --mode download >> logs/cron.log 2>&1
+
+# Windows (Task Scheduler) equivalent:
+#   schtasks /Create /SC DAILY /ST 02:30 /TN CryptoPipeline /TR "cmd /c cd /d D:\path\to\project && .venv\Scripts\python run_pipeline.py >> logs\cron.log 2>&1"
